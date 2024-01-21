@@ -2,6 +2,7 @@
 <a target="_blank" href="https://colab.research.google.com/github/MMahdiSetak/Emotion-Analysis/blob/main/go-emotions/go-emotions.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/MMahdiSetak/Emotion-Analysis/blob/main/LICENSE)
 
 ## Overview
 This project focuses on emotion analysis using a neural network model built on top of BERT (Bidirectional Encoder Representations from Transformers). The goal is to accurately classify text into various emotion categories such as admiration, amusement, anger, etc.
@@ -98,7 +99,3 @@ For comparison, here are the results reported in the GoEmotions paper:
 
 ## Contributions
 Feedback, bug reports, and contributions are welcome! Please feel free to submit issues and enhancement requests.
-
----
-
-Feel free to adjust or add any additional sections as you see fit for your project.
