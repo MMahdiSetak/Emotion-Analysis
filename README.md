@@ -1,5 +1,5 @@
 # Emotion Analysis Project
-<a target="_blank" href="https://colab.research.google.com/github/MMahdiSetak/Emotion-Analysis/blob/main/go-emotions/go-emotions.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/MMahdiSetak/Emotion-Analysis/blob/main/go-emotions/bert.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -49,6 +49,39 @@ The model was evaluated on various emotion categories with the following results
 | neutral        | 0\.782   | 0\.721    | 0\.55  | 0\.624 | 0\.482 | 1787\.0 |
 | macro\_avg     | NaN      | 0\.601    | 0\.339 | 0\.397 | 0\.41  | NaN     |
 
+### tf-idf:
+
+|index|accuracy|precision|recall|f1|mcc|support|
+|---|---|---|---|---|---|---|
+|admiration|0\.928|0\.742|0\.343|0\.469|0\.474|504\.0|
+|amusement|0\.969|0\.8|0\.485|0\.604|0\.609|264\.0|
+|anger|0\.965|0\.622|0\.116|0\.196|0\.259|198\.0|
+|annoyance|0\.942|0\.769|0\.031|0\.06|0\.148|320\.0|
+|approval|0\.938|0\.711|0\.077|0\.139|0\.221|351\.0|
+|caring|0\.976|0\.714|0\.074|0\.134|0\.225|135\.0|
+|confusion|0\.971|0\.333|0\.013|0\.025|0\.061|153\.0|
+|curiosity|0\.949|0\.875|0\.025|0\.048|0\.142|284\.0|
+|desire|0\.986|0\.688|0\.133|0\.222|0\.298|83\.0|
+|disappointment|0\.973|1\.0|0\.013|0\.026|0\.113|151\.0|
+|disapproval|0\.951|1\.0|0\.007|0\.015|0\.084|267\.0|
+|disgust|0\.98|0\.697|0\.187|0\.295|0\.354|123\.0|
+|embarrassment|0\.994|1\.0|0\.054|0\.103|0\.232|37\.0|
+|excitement|0\.983|0\.846|0\.107|0\.19|0\.297|103\.0|
+|fear|0\.987|0\.818|0\.115|0\.202|0\.304|78\.0|
+|gratitude|0\.986|0\.963|0\.815|0\.883|0\.879|352\.0|
+|grief|0\.999|0\.0|0\.0|0\.0|0\.0|6\.0|
+|joy|0\.972|0\.583|0\.174|0\.268|0\.308|161\.0|
+|love|0\.973|0\.774|0\.546|0\.64|0\.637|238\.0|
+|nervousness|0\.996|0\.0|0\.0|0\.0|-0\.001|23\.0|
+|optimism|0\.974|0\.782|0\.328|0\.462|0\.496|186\.0|
+|pride|0\.997|0\.5|0\.062|0\.111|0\.176|16\.0|
+|realization|0\.974|1\.0|0\.021|0\.041|0\.142|145\.0|
+|relief|0\.998|0\.0|0\.0|0\.0|0\.0|11\.0|
+|remorse|0\.992|0\.667|0\.357|0\.465|0\.484|56\.0|
+|sadness|0\.975|0\.738|0\.199|0\.313|0\.375|156\.0|
+|surprise|0\.974|0\.515|0\.121|0\.195|0\.241|141\.0|
+|neutral|0\.731|0\.623|0\.466|0\.533|0\.357|1787\.0|
+|macro\_avg|NaN|0\.67|0\.174|0\.237|0\.283|NaN|
 
 ### Reference Results from GoEmotions Paper
 For comparison, here are the results reported in the GoEmotions paper:
